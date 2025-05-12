@@ -1,1 +1,19 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/d0bmJ7Jc)
+## Para que o frontend funcione, é necessário fazer os seguintes passos:
+
+## Clonar o repositório:
+
+> No github (https://github.com/birila23/Banco2.git), copie o link e clone em seu repositório local.
+
+*É necessário instalar o Node.js versão 20.0*
+
+Após isso, acesse a pasta em que o repositório foi clonado e digite os seguintes comandos no terminal:
+```
+npm install
+```
+```
+node index.js 
+```
+
+E assim, a API já vai estar funcionando corretamente com suas dependências.
+
+*Também é necessário criar o banco de dados, além do arquivo .env*
