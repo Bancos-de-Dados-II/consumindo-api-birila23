@@ -17,3 +17,9 @@ node index.js
 E assim, a API já vai estar funcionando corretamente com suas dependências.
 
 *Também é necessário criar o banco de dados, além do arquivo .env*
+<hr>
+
+## Tecnologias utilizadas:
+- HTML
+- CSS
+- Javascript
