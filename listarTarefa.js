@@ -46,10 +46,7 @@ function mostrarTarefas(tasks) {
         btEditar.textContent = 'Editar';
         btEditar.className = 'btn btn-secondary btn-sm';
         btEditar.addEventListener('click', () => {
-            titulo.value = task.titulo;
-            descricao.value = task.descricao;
-            tipo.value = task.tipo;
-            idEditando = task.id;
+            editarTarefa(task);
         });
 
         // Adiciona botões na célula
@@ -75,7 +72,10 @@ function excluirTarefa(task) {
 }
 
 function editarTarefa(task) {
-    SalvarTarefa(task, task.id).then(() => carregarTask());
+    titulo.value = task.titulo;
+    descricao.value = task.descricao;
+    tipo.value = task.tipo;
+    idEditando = task.id;
 }
 
 carregarTask();
